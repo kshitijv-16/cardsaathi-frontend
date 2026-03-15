@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer } from "recharts";
 
-const API = "https://cardsaathi-backend-production.up.railway.app";
+const API = "https://cardsaathi-backend.up.railway.app";
 
 // ── LOGIN PAGE ────────────────────────────────────────────────────────────────
 function LoginPage({ onLogin, dark, toggleTheme, t }) {
